@@ -129,7 +129,7 @@ header nav .nav-menu {
     background-color: var(--brand-color5);
     padding: 200px var(--container-padding);
     text-align: center;
-    background-image: linear-gradient( var(--banner-oppacity), var(--banner-oppacity)), url(/images/banner.jpg);
+    background-image: linear-gradient( var(--banner-oppacity), var(--banner-oppacity)), url(images/banner.jpg);
     background-size: cover;
 }
 .banner-title {
