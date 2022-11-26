@@ -250,18 +250,13 @@ header nav .nav-menu {
     height: 44px;
     gap: 10px;
 }
-.team .card ul li:hover,
-.team .card ul li:active,
-.team .card ul li:focus {
+.team .card ul:hover,
+.team .card ul:active,
+.team .card ul:focus {
     background-color: var(--brand-color4);
 }
 .team .card ul li .icon {
     fill: var(--icons-grey);
-}
-.team .card ul li .icon:hover,
-.team .card ul li .icon:active,
-.team .card ul li .icon:focus {
-    fill: var(--brand-color6);
 }
 
 /* -----------------Clients Section-------------------- */
