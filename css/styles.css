@@ -158,6 +158,7 @@ header nav .nav-menu {
     align-items:flex-start;
     justify-content:space-between;
     width: 1170px;
+    
 }
 .benefits li {
     width: 270px;
@@ -175,10 +176,17 @@ header nav .nav-menu {
 .title {
     height: 50px;
     text-transform: uppercase;
+    padding: 30px 0;
 }
 
 /* ----------------Services Section------------------- */
 
+.services-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 .services-section h2 {
     font-weight: 700;
     font-size: 36px;
@@ -250,13 +258,18 @@ header nav .nav-menu {
     height: 44px;
     gap: 10px;
 }
-.team .card ul:hover,
-.team .card ul:active,
-.team .card ul:focus {
+.team .card ul li:hover,
+.team .card ul li:active,
+.team .card ul li:focus {
     background-color: var(--brand-color4);
 }
 .team .card ul li .icon {
     fill: var(--icons-grey);
+}
+.team .card ul li:hover .icon,
+.team .card ul li:active .icon,
+.team .card ul li:focus .icon {
+    fill: var(--brand-color6);
 }
 
 /* -----------------Clients Section-------------------- */
