@@ -61,14 +61,12 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 80px;
-    padding: 0;
-    margin: 0 10em;
 }
 header nav {
     display: flex;
     align-items: center;
     gap: 100px;
+    margin: 0 10em;
 }
 header nav .nav-menu {
     display: flex;
@@ -77,6 +75,7 @@ header nav .nav-menu {
 .header-contacts {
     display: flex;
     gap: 80px;
+    margin: 0 5em;
 }
 .header-contacts li {
     display: flex;
@@ -129,7 +128,7 @@ header nav .nav-menu {
     background-color: var(--brand-color5);
     padding: 200px var(--container-padding);
     text-align: center;
-    background: linear-gradient( var(--banner-oppacity), var(--banner-oppacity)), url(/images/banner.jpg);
+    background: linear-gradient( var(--banner-oppacity), var(--banner-oppacity)), url(../images/banner.jpg);
     background-size: cover;
 }
 .banner-title {
@@ -159,11 +158,9 @@ header nav .nav-menu {
     align-items:flex-start;
     justify-content:space-between;
     width: 1170px;
-    height: 122px;
 }
 .benefits li {
     width: 270px;
-    height: 120px;
     line-height: 1.5em;
 }
 .benefits li div {
@@ -174,7 +171,6 @@ header nav .nav-menu {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 30px;
 }
 .title {
     height: 50px;
@@ -182,9 +178,7 @@ header nav .nav-menu {
 }
 
 /* ----------------Services Section------------------- */
-.services-section {
-    margin-top: 99px;
-}
+
 .services-section h2 {
     font-weight: 700;
     font-size: 36px;
@@ -200,8 +194,7 @@ header nav .nav-menu {
     margin-top: 50px;
 }
 .services ul li {
-    margin-left: 25px;
-    margin-right: 25px;
+    margin: 0 25px;
 }
 
 /* ------------------Team Section--------------------- */
@@ -215,12 +208,12 @@ header nav .nav-menu {
     text-align: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    padding-bottom: 50px;
 }
 .team {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    height: 448px;
 }
 .team .card {
     background-color: var(--brand-color6);
@@ -274,7 +267,6 @@ header nav .nav-menu {
 /* -----------------Clients Section-------------------- */
 .clients {
     width: 1170px;
-    height: 162px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -380,7 +372,6 @@ header nav .nav-menu {
 footer {
     padding: 94px var(--container-padding);
     background-color: var(--brand-color5);
-    height: 350px;
     display: flex;
     align-items: center;
 }
